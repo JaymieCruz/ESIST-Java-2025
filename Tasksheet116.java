@@ -13,7 +13,7 @@ public class Tasksheet116 {
             System.out.println("The input string is a palindrome.");
         } else {
             System.out.println("The input string is not a palindrome.");
-        }081920
+        }
 
         scanner.close();
     }
