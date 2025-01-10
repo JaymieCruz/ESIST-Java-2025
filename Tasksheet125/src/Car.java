@@ -2,7 +2,9 @@ public class Car extends Tasksheet125 {
     int numberOfDoors;
 
     public Car(String make, String model, int year, int numberOfDoors) {
-        super(make, model, year);
+        this.make = make;
+        this.model = model;
+        this.year = year;
         this.numberOfDoors = numberOfDoors;
     }
 
